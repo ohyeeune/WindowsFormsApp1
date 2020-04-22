@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("유노윤호와 영웅재중입니다!", 
+                "구 동방신기",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Exclamation);
+        }
     }
 }
